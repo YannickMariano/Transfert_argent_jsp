@@ -11,7 +11,7 @@ import net.javaguides.transfert.model.Client;
 public class TransfertDAO {
 	private String jdbcURL = "jdbc:postgresql://localhost:5432/JSP";
 	private String jdbcUsername = "postgres";
-	private String jdbcPassword = "#01YannicK#";
+	private String jdbcPassword = "admin";
 	
 	private static final String UPDATE_SOLDE = "UPDATE client SET solde = ? WHERE num_tel = ?";
 	

@@ -16,7 +16,7 @@ import net.javaguides.transfert.util.EmailUtil;
 public class EnvoyerDAO {
     private final String url = "jdbc:postgresql://localhost:5432/JSP";
     private final String user = "postgres";
-    private final String password = "#01YannicK#";
+    private final String password = "admin";
     
 
     public Connection connect() throws SQLException, ClassNotFoundException {
