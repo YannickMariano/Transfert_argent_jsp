@@ -14,7 +14,7 @@ public class ClientDAO {
 	
 	private String jdbcURL = "jdbc:postgresql://localhost:5432/JSP";
 	private String jdbcUsername = "postgres";
-	private String jdbcPassword = "admin";
+	private String jdbcPassword = "#01YannicK#";
 	
 	private static final String INSERT_CLIENTS_SQL = "INSERT INTO client (num_tel, nom, sexe, pays, solde, mail) VALUES (?, ?, ?, ?, ?, ?);";
 	private static final String SELECT_CLIENT_BY_NAME = "SELECT num_tel, nom, sexe, pays, solde, mail FROM client WHERE nom = ?";

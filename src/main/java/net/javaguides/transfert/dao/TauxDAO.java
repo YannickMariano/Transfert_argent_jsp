@@ -14,7 +14,7 @@ public class TauxDAO {
 	
 	private String jdbcURL = "jdbc:postgresql://localhost:5432/JSP";
 	private String jdbcUsername = "postgres";
-	private String jdbcPassword = "admin";
+	private String jdbcPassword = "#01YannicK#";
 	
 	private static final String INSERT_TAUX_SQL = "INSERT INTO taux (montant_1, montant_2) VALUES (?, ?);";
 	private static final String SELECT_TAUX_BY_ID = "SELECT id_taux, montant_1, montant_2 FROM taux WHERE id_taux = ?";
